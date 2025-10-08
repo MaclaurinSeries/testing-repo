@@ -6,8 +6,8 @@ app.get("/", (req, res) => {
   res.send("Hello from Kubernetes!");
 });
 
-app.get("/test", (req, res) => {
-  res.send("test bruh");
+app.get("/kbj", (req, res) => {
+  res.send("Hello from KBJ!");
 });
 
 app.listen(port, () => {
